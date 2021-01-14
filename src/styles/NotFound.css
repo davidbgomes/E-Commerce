@@ -1,0 +1,44 @@
+/*.notFoundDiv{
+	padding-bottom: 600px;
+}*/
+
+.notFoundDiv .card{
+	margin: auto;
+	width: 900px;
+	height: 540px;
+}
+
+@media screen and (max-width: 2000px){
+
+	.notFoundDiv .card{
+		width: 670px;
+		height: 406px;
+	}
+}
+
+@media screen and (max-width: 1440px){
+
+	.notFoundDiv .card{
+		width: 570px;
+		height: 345px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.notFoundDiv{
+		padding-bottom: 900px;
+	}
+
+	.notFoundDiv .card{
+		width: 370px;
+		height: 225px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.notFoundDiv .card{
+		width: 270px;
+		height: 164px;
+	}
+
+}

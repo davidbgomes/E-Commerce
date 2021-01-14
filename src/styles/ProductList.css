@@ -1,0 +1,21 @@
+.productListDiv{
+	padding-bottom: 708px;
+}
+
+.productListCard{
+	position: relative !important;
+}
+
+
+
+@media screen and (min-width: 992px){
+	.productListDescription{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.productListDiv{
+		padding-bottom: 850px;
+	}
+}

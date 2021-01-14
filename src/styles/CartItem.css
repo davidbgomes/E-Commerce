@@ -1,0 +1,267 @@
+.cartItemDiv{
+	width: 1000px;
+	-webkit-box-shadow: 10px 10px 40px -18px rgba(158,196,235,1);
+	-moz-box-shadow: 10px 10px 40px -18px rgba(158,196,235,1);
+	box-shadow: 10px 10px 40px -18px rgba(158,196,235,1);
+}
+
+.cartItemBody{
+	background: rgb(0,0,0) !important;
+	background: linear-gradient(180deg, rgba(0,0,0,0.8127626050420168) 23%, rgba(0,28,120,0.9136029411764706) 100%) !important;
+}
+
+.cartItemDiv.card{
+	border: 0px !important;
+}
+
+.deleteIconDiv .closeIcon{
+	font-size: 35px;
+}
+
+.cartActions{
+	background: rgba(135,173,201,1);
+	background: -moz-linear-gradient(45deg, rgba(135,173,201,1) 0%, rgba(211,227,238,0.81) 35%, rgba(211,227,238,0.46) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(135,173,201,1)), color-stop(35%, rgba(211,227,238,0.81)), color-stop(100%, rgba(211,227,238,0.46)));
+	background: -webkit-linear-gradient(45deg, rgba(135,173,201,1) 0%, rgba(211,227,238,0.81) 35%, rgba(211,227,238,0.46) 100%);
+	background: -o-linear-gradient(45deg, rgba(135,173,201,1) 0%, rgba(211,227,238,0.81) 35%, rgba(211,227,238,0.46) 100%);
+	background: -ms-linear-gradient(45deg, rgba(135,173,201,1) 0%, rgba(211,227,238,0.81) 35%, rgba(211,227,238,0.46) 100%);
+	background: linear-gradient(45deg, rgba(135,173,201,1) 0%, rgba(211,227,238,0.81) 35%, rgba(211,227,238,0.46) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87adc9', endColorstr='#d3e3ee', GradientType=1 );
+}
+
+.cartActions .MuiInputBase-root{
+	width:70px;
+	height: 43px;
+}
+
+.cartActions .cartActionsQuantity{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.cartActions .deleteIconDiv{
+	right: 0;
+    display: flex;
+    position: absolute;
+}
+
+.deleteIconDiv .btn{
+	padding: 0 !important;
+}
+
+@media screen and (min-width: 1440px) {
+	.marginDescription{
+		margin-top: 20px;
+	}
+	.marginPrice{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+	.marginDescription{
+		margin-top: 5%;
+	}
+	.marginPrice{
+		margin-top: 5%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.cartItemDiv h2{
+		font-size: 24px;
+	}
+	.cartItemDiv h3{
+		font-size: 16px;
+	}
+	.cartItemDiv h4{
+		font-size: 20px !important;
+	}
+	.marginDescription{
+		margin-top: 4%;
+	}
+	.marginPrice{
+		margin-top: 3%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.cartItemDiv{
+		width: 100%;
+		height: 50%;
+	}
+	.cartItemDiv img{
+		width: 100%;
+		height: 100%;
+	}
+	.cartItemDiv p{
+		font-size: 12px;
+	}
+
+	.cartItemDiv h2{
+		font-size: 35px !important;
+	}
+	.cartItemDiv h3{
+		font-size: 23px !important;
+	}
+
+	.cartItemDiv h4{
+		font-size: 25px !important;
+	}
+
+	.cartActions .MuiInputBase-root{
+		width:65px;
+		height: 35px;
+		margin-left: -2px;
+	}
+
+	.cartActions .MuiFormLabel-root{
+		margin-bottom: 0px;
+		font-size: 13px;
+	}
+
+	.marginDescription{
+		margin-top: 5%;
+	}
+	.marginPrice{
+		margin-top: 5%;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.cartItemDiv{
+		width: 100%;
+		height: 50%;
+	}
+	.cartItemDiv img{
+		width: 100%;
+		height: 100%;
+	}
+	.cartItemDiv p{
+		font-size: 12px;
+	}
+
+	.cartItemDiv h2{
+		font-size: 30px !important;
+	}
+	.cartItemDiv h3{
+		font-size: 19px !important;
+	}
+
+	.cartItemDiv h4{
+		font-size: 19px !important;
+	}
+
+	.cartActions .MuiInputBase-root{
+		width:65px;
+		height: 35px;
+		margin-left: -2px;
+	}
+
+	.cartActions .MuiFormLabel-root{
+		margin-bottom: 0px;
+		font-size: 13px;
+	}
+
+	.marginDescription{
+		margin-top: 5%;
+	}
+	.marginPrice{
+		margin-top: 5%;
+	}
+}
+
+@media screen and (min-width: 378px) and (max-width: 576px) {
+	.cartItemDiv{
+		width: 100%;
+		height: 50%;
+	}
+	.cartItemDiv img{
+		width: 100%;
+		height: 100%;
+	}
+	.cartItemDiv p{
+		font-size: 12px;
+	}
+
+	.cartItemDiv h2{
+		font-size: 22px !important;
+	}
+	.cartItemDiv h3{
+		font-size: 13px !important;
+	}
+
+	.cartItemDiv h4{
+		font-size: 13px !important;
+	}
+
+	.cartActions .MuiInputBase-root{
+		width:65px;
+		height: 35px;
+		margin-left: -2px;
+	}
+
+	.cartActions .MuiFormLabel-root{
+		margin-bottom: 0px;
+		font-size: 13px;
+	}
+
+	.marginDescription{
+		margin-top: 5%;
+	}
+	.marginPrice{
+		margin-top: 5%;
+	}
+
+	.cartActionsQuantity{
+		margin-bottom: 5px !important;
+	}
+}
+
+@media screen and (max-width: 378px){
+	.cartItemDiv{
+		width: 100%;
+		height: 50%;
+	}
+	.cartItemDiv img{
+		width: 100%;
+		height: 100%;
+	}
+	.cartItemDiv h2{
+		font-size: 5vw !important;
+	}
+	.cartItemDiv h3{
+		font-size: 3vw !important;
+	}
+	.cartItemDiv h4{
+		font-size: 3vw !important;
+	}
+	.cartItemDiv .MuiInputBase-root{
+		width:50px;
+		height: 35px;
+	}
+	.cartActions label{
+		font-size: 10px !important;
+	}
+	.cartActionsQuantity .cartQuantitySelect{
+		font-size: 10px !important;
+	}
+	.cartActionsQuantity .MuiOutlinedInput-input{
+		padding: 18.5px 10px;
+	}
+	.deleteIconDiv .closeIcon{
+		font-size: 20px;
+	}
+	.marginDescription{
+		margin-top: 0;
+	}
+	.marginPrice{
+		margin-top: 0;
+	}
+
+	.cartActionsQuantity{
+		margin-bottom: 5px !important;
+	}
+}

@@ -1,0 +1,44 @@
+.methodsImages{
+	width: 180px;
+	height: 60px;
+}
+
+.MuiFormControlLabel-root{
+	margin-right: 70px !important;
+}
+
+.MuiFormGroup-root{
+	justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 774px){
+	.methodsImages{
+		width: 120px;
+		height: 40px;
+	}
+
+	.MuiFormGroup-root{
+		justify-content: left;
+	}
+
+	.MuiFormControlLabel-root{
+		margin-top : 10px !important;
+	}
+}
+
+.phoneField{
+	animation: showPhoneField 0.5s ease-in-out;
+}
+
+@keyframes showPhoneField {
+	0% {
+    	opacity: 0;
+    	margin-top : -300px !important;
+  	}
+  	100% {
+    	opacity: 1;
+    	margin-top : 0px !important;
+  	}
+}

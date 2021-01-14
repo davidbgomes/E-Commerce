@@ -1,0 +1,30 @@
+.privacyPolicyDiv{
+	padding-bottom: 600px;
+}
+
+.privacyPolicyDiv p{
+	font-size: 20px;
+}
+
+.privacyPolicyDiv li{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 992px){
+	.privacyPolicyDiv{
+		padding-bottom: 850px;
+	}
+}
+
+@media screen and (max-width: 574px){
+	.privacyPolicyDiv h3{
+		font-size: 25px !important;
+	}
+	.privacyPolicyDiv p{
+		font-size: 15px;
+	}
+
+	.privacyPolicyDiv li{
+		font-size: 15px;
+	}
+}

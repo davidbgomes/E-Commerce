@@ -1,0 +1,187 @@
+.productCard{
+	width: 440px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.productCard .card-body{
+background: rgb(0,0,0) !important;
+background: linear-gradient(180deg, rgba(0,0,0,0.8127626050420168) 23%, rgba(0,28,120,0.9136029411764706) 100%) !important;
+/*background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.9051995798319328) 0%, rgba(46,62,6,0.9668242296918768) 96%, rgba(29,75,6,1) 100%);*/
+}
+
+.productCard .productDescription{
+	font-size: 17px;
+}
+
+.addToCartDiv .buttonText{
+	color: black;
+}
+
+.addToCartDiv .addToCartButton{		
+    width: 300px;
+    /*vertical-align: baseline;*/
+}
+
+.addToCartDiv .MuiInputBase-root{
+	color: white;
+	width:70px;
+	height: 43px;
+	margin-right: 10px;
+}
+
+.addToCartDiv .MuiInputLabel-root{
+	color: white;
+}
+
+.addToCartDiv .MuiSelect-icon{
+	color: white;
+}
+
+.addToCartDiv .MuiOutlinedInput-notchedOutline{
+	border-color: white;
+}
+
+.productCard.card{
+	border: 0px !important;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1438px) {
+	.productCard{
+		width: 360px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.productCard .productDescription{
+		font-size: 14px;
+	}
+
+	.productCard h3{
+		font-size: 27px !important;
+	}
+
+	.productCard label{
+		font-size: 12px;
+	}
+
+	.productCard .MuiInputBase-root{
+		font-size: 12px;
+	}
+
+	.addToCartDiv .MuiInputBase-root{
+		width:58px;
+		height: 38px;
+	}
+
+	.addToCartDiv .addToCartButton{
+		width:230px;
+	}
+
+	.addToCartDiv .buttonText{
+		font-size: 15px !important;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.productCard{
+		width: 350px;
+		height: 100%;
+		margin-left: 20px;
+		margin-right:100px;
+	}
+
+	.productCard .productDescription{
+		font-size: 13px;
+	}
+
+	.addToCartButton{
+		width: 60%;
+		margin-top: 5px;
+		vertical-align: baseline;
+	}
+
+	.addToCartDiv .addToCartButton{
+		width:230px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.productCard{
+		width: 400px;
+		height: 100%;
+	}
+
+	.addToCartButton{
+		width: 60%;
+		margin-top: 5px;
+		vertical-align: baseline;
+	}
+	.addToCartButton span{
+		font-size: 12px;
+	}
+	.addToCartDiv .addToCartButton{
+		width:270px;
+	}
+
+	.addToCartDiv .buttonText{
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 427px) and (max-width: 576px){
+	.productCard{
+		width: 400px;
+		height: 100%;
+	}
+	.addToCartDiv .addToCartButton{
+		width:250px;
+		vertical-align: baseline;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 426px){
+	.productCard{
+		width: 370px;
+		height: 100%;
+	}
+	.addToCartDiv .addToCartButton{
+		width:240px;
+		vertical-align: baseline;
+	}
+}
+
+@media screen and (max-width: 399px){
+	.productCard{
+		width: 290px;
+		height: 100%;
+	}
+	.addToCartButton span{
+		font-size: 12px;
+	}
+	.addToCartDiv .addToCartButton{
+		width:160px;
+		vertical-align: baseline;
+	}
+
+	.addToCartDiv .buttonText{
+		font-size: 13px;
+	}
+	.addToCartDiv .MuiInputBase-root{
+		width:65px;
+		height: 38px;
+	}
+	.productCard h3{
+		font-size: 25px !important;
+	}
+	.productCard .productDescription{
+		font-size: 15px;
+	}
+	.productCard label{
+		font-size: 12px;
+	}
+}

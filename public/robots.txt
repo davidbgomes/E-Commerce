@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /src/config
+User-agent: *
+Allow: /
+Sitemap: https://oxyllus.pt/sitemap.xml
+

@@ -1,0 +1,60 @@
+.MuiDialogTitle-root h2{
+	color: black;
+}
+
+.MuiDialogTitle-root{
+	padding-left: 5px !important;
+}
+
+.dialogTitleDiv{
+	display: flex !important;
+}
+
+.dialogTitleDiv h2{
+	font-size: 25px !important;
+}
+
+.dialogTitleDiv .MuiSvgIcon-root{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 5px;
+	font-size: 40px;
+}
+
+.dialogTitleDiv .successIcon{
+	color: green;
+}
+
+.newsletterDialogDiv .MuiDialogContentText-root{
+	font-size: 18px;
+}
+
+.DialogLeaveButton span{
+	color: dimgrey;
+}
+
+.dialogCheckIcon{
+	color: forestgreen;
+}
+
+.dialogTitleDiv .MuiCircularProgress-root{
+	display: block !important;
+	margin: auto;
+	width: 60px;
+	height: 60px;
+}
+
+
+@media screen and (max-width: 992px) {
+	.MuiDialogTitle-root h2{
+		font-size: 17px !important;
+	}
+}
+
+
+
+@media screen and (max-width: 378px){
+	.MuiDialogTitle-root{
+		flex: initial !important;
+	}
+}

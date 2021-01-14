@@ -1,0 +1,20 @@
+.cartMobileTableDiv .MuiAccordion-root{
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-style: hidden;
+    box-shadow: 5px 6px 14px -7px rgba(115,199,198,1);
+    border-radius: 4px;
+}
+
+.cartMobileTableDiv .MuiAccordionDetails-root{
+    background: #129ce400;
+    border-style: hidden;
+}
+
+
+@media screen and (min-width: 768px) {
+	.cartMobileTableDiv{
+		width: 75%;
+		margin: auto;
+	}
+}

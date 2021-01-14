@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px) {
+	.show{
+		animation: showItems 0.6s ease-in-out;
+	}
+}
+
+@keyframes showItems {
+	0%{
+		opacity: 0;
+	}
+  	100%{
+  		opacity: 1;
+  	}
+}
+
+.nav-style{
+	font-size: 16px;
+}
+
+
+.navbar-toggler{
+	color: white !important;
+	border-color: transparent !important;
+}
+
+.navbar button{
+	color: white !important;
+}
+
+.menuItem{
+	padding: 0.1rem 1rem 0.1rem 1rem !important;
+}
+
+.cart{
+	display: inline-flex !important;
+}
+
+.navbar span{
+	vertical-align: 4px;
+	color: white;
+}
+
+.header{
+	padding: 0px !important;
+	padding-left: 0.5rem !important;
+	padding-right: 0.5rem !important;
+	background-color: transparent !important;
+	/*border-bottom: inset !important;*/
+}
+
+.header .MuiBadge-root{
+	padding: 0 4px;
+	right: 15px;
+	top: 12px;
+}
+
+.cartIcon{
+	color: white;
+	font-size: 30px;
+}
+
+.cartMenuDiv{
+	display: flex;
+	margin-top: 5px;
+}
+
+@media screen and (min-width: 992px) {
+	.menuHamburger{
+		display:none !important;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.header span{
+		font-size: 14px;
+	}
+
+	.header .cartIcon{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.cartIcon{
+		margin-top: 2px;
+	}
+}
+
+/*.cartMenuDiv span{
+	margin-top: -3px;
+}*/
+

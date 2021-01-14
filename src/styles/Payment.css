@@ -1,0 +1,131 @@
+.paymentDiv{
+	padding-bottom: 50px;
+}
+
+.paymentDiv .finalPriceSpan{
+	font-size: 20px;
+}
+
+.paymentDiv hr{
+	background-color: white;
+}
+
+.paymentDiv .titleHr{
+	width: 400px;	
+}
+
+.paymentDiv .paymentFormDiv{
+	display: table;
+	margin: auto;
+}
+
+.paymentFormDiv .MuiInputBase-root{
+	width: 300px;
+}
+
+
+
+.paymentInformationCard{
+	background-color: transparent;
+}
+
+.paymentSummaryCardDetails{
+	display: grid;
+}
+
+.paymentSummaryCardDetails span{
+	color: black;
+}
+
+.cartPaymentTableDiv{
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	border-style: hidden;
+    box-shadow: 5px 6px 14px -7px rgba(115,199,198,1);
+    border-radius: 4px;
+}
+
+.cartPaymentTableDiv span{
+	color: black !important;
+	font-size: 25px;
+}
+
+.cartMobileTableDiv span{
+	color: black !important;
+	font-size: 20px;
+}
+
+.cartMobileTableDiv{
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-style: hidden;
+    box-shadow: 5px 6px 14px -7px rgba(115,199,198,1);
+    border-radius: 4px;
+}
+
+.paymentDiv .MuiBackdrop-root {
+    background-color: black !important;
+    opacity: 0.4 !important;
+    z-index: +10 !important;
+}
+
+.paymentDiv .MuiCircularProgress-colorPrimary{
+	color: white;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1300px) {
+	.cartPaymentTableDiv span{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1150px) {
+	.cartPaymentTableDiv span{
+		font-size: 15px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.paymentDiv .cardSummary{
+		width: 75%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.paymentFormDiv .MuiInputBase-root{
+		width: 300px;
+	}
+	.paymentDiv .titleHr{
+		width: 250px;
+	}
+	.paymentFormDiv .MuiFormControlLabel-root{
+		margin-right: 0px !important;
+	}
+
+	.paymentFormDiv .MuiFormControlLabel-label{
+		font-size: 14px !important;
+	}
+
+}
+
+@media screen and (max-width: 378px){
+	.paymentDiv .finalPriceSpan{
+		font-size: 14px;
+	}
+	.paymentFormDiv .MuiInputBase-root{
+		width: 250px;
+	}
+	.MuiStepLabel-label{
+		font-size: 10px;
+	}
+
+	.paymentFormDiv .MuiFormControlLabel-root{
+		margin-right: 0px !important;
+	}
+
+	.paymentFormDiv .MuiFormControlLabel-label{
+		font-size: 12px !important;
+	}
+}

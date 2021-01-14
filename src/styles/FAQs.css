@@ -1,0 +1,30 @@
+.faqDiv{
+	padding-bottom: 600px;
+}
+
+.faqDiv p{
+	font-size: 20px;
+}
+
+.faqDiv li{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 992px){
+	.faqDiv{
+		padding-bottom: 850px;
+	}
+}
+
+@media screen and (max-width: 574px){
+	.faqDiv h3{
+		font-size: 25px !important;
+	}
+	.faqDiv p{
+		font-size: 15px;
+	}
+
+	.faqDiv li{
+		font-size: 15px;
+	}
+}

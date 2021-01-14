@@ -1,0 +1,65 @@
+.multibancoDiv{
+	flex-direction: row !important;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.multibancoDiv p{
+	color: black;
+	font-size: 25px;
+}
+
+.multibancoDiv span{
+	color: black;
+	font-size: 25px;
+}
+
+.multibancoHeader{
+	border: groove;
+}
+
+.multibancoDetailsDiv{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.multibancoHeader img{
+	width: 200px;
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+	.multibancoDiv{
+		width: 500px;
+	}
+	.multibancoDiv p{
+		font-size: 20px; 
+	}
+	.multibancoDiv span{
+		font-size: 20px; 
+	}
+}
+
+@media screen and (max-width: 528px) {
+
+	.multibancoHeader img{
+		width: 70px;
+		height: 70px;
+		margin-top: 20px;
+		margin-left: -7px;
+	}
+	.multibancoHeader{
+		width: 100px;
+	}
+	.multibancoDiv{
+		width: 300px;
+		height: 140px;
+	}
+	.multibancoDiv p{
+		font-size: 14px; 
+	}
+	.multibancoDiv span{
+		font-size: 14px; 
+	}
+}

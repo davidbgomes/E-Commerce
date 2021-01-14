@@ -1,0 +1,339 @@
+.footer{
+	background-color: rgb(48, 48, 48);
+	color: white;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	height: 370px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footer .container-fluid{
+	width: 70%;
+}
+
+.footer ul{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+.footer .informationCol{
+	display: grid;
+}
+
+.footer .footerTitle{
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: darkkhaki;
+}
+
+.footer span{
+	font-size: 18px;
+}
+
+.footerPaymentOption{
+	width: 50px ;
+	height: 20px ;
+}
+
+.footer .paymentOptionCol{
+	display: inline-flex;
+	padding-top: 5px;
+}
+
+.footer .paymentOptionRow{
+	display: flex;
+}
+
+.footer .visa{
+	height: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.footer .mastercard{
+	height: 28px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.footer .multibanco{
+	height: 28px;
+	width: 40px;
+	margin: auto;
+}
+
+.footer .americanExpressDiv{
+	height: 32px;
+	width: 52px;
+	background-color: #006FCF;
+}
+
+.footer .americanExpress{
+	height: 30px;
+	width: 40px;
+	margin-left: auto;
+}
+
+.footer .mbway{
+	height: 25px;
+	margin: auto;
+}
+
+.footer .mbCard{
+	width: 52px ;
+	height: 32px ;
+}
+
+.footer .socialMediaDiv{
+	display: inline-flex;
+}
+
+.footer .facebookIcon:hover{
+	color: #4064AD;
+}
+
+.footer .instagramIcon:hover{
+	background: linear-gradient(45Deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+	clip-path: polygon(7% 7%, 93% 7%, 93% 90%, 7% 90%);
+	border-radius: 60px;
+}
+
+
+.footer hr{
+	background-color: white;
+	margin-bottom: 10px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+.footer .smallHr{
+	width:250px;
+}
+
+.footer .bigHr{
+	width:380px;
+}
+
+.footer .MuiInputBase-root{
+	color: white;
+	width: 300px;
+}
+
+.MuiInputBase-root span{
+	color: white !important;
+	width: 200px;
+}
+
+.footer .MuiOutlinedInput-root{
+	color: white !important;
+}
+
+.footer .MuiInputLabel-root{
+	color: white !important;
+}
+
+.footer .MuiOutlinedInput-notchedOutline{
+	border-color: white !important;
+}
+
+.footer .subscribeButton{
+	width: 150px;
+}
+
+.footer .subscribeButtonText{
+	color: black;
+}
+
+.footer .MuiInputBase-input{
+	font-size: 18px;
+}
+
+@media screen and (max-width: 2134px){
+	.footer .container-fluid{
+		width: 100%;
+	}
+
+	.footer .footerTitle{
+		font-size: 22px;
+	}
+
+	.InformationItems{
+		font-size: 18px;
+	}
+
+	.footer .MuiInputBase-root{
+		width: 230px;
+	}
+
+	.footer .subscribeButton{
+		width: 100px;
+	}
+
+	.footer .subscribeButtonText{
+		font-size: 15px;
+	}
+
+	.MuiInputBase-root span{
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 1440px)  and (min-width: 992px){
+
+	.footer .footerTitle{
+		font-size: 16px;
+	}
+
+	.footer .InformationItems{
+		font-size: 14px;
+	}
+
+	.footer .MuiInputBase-root{
+		width: 170px;
+	}
+
+	.footer .subscribeButton{
+		width: 85px;
+	}
+
+	.footer .subscribeButtonText{
+		font-size: 12px;
+	}
+
+	.footer .MuiInputBase-input{
+		font-size: 12px;
+	}
+
+	.footer .smallHr{
+		width:170px;
+	}
+
+	.footer .bigHr{
+		width:250px;
+	}
+}
+
+@media screen and (max-width: 1150px) and (min-width: 992px){
+	.footer .footerPaymentOption{
+		width: 39px;
+	}
+	.paymentOptionCol .card{
+		width: 40px;
+	}
+
+	.footer .bigHr{
+		width:220px;
+	}
+
+	.footer .MuiInputBase-root{
+		width: 180px;
+	}
+
+	.footer .newsletterDiv{
+		margin-left: -35px;
+	}
+
+	.footer .subscribeButton{
+		width: 75px;
+	}
+
+	.footer .subscribeButtonText{
+		font-size: 11px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 992px){
+	.footer .newsletterDiv{
+		display: inline-flex;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.footer{
+		height: 740px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.footer{
+		height: 730px;
+	}
+
+	.footer .smallHr{
+		width:200px;
+	}
+
+	.footer .bigHr{
+		width:320px;
+	}
+
+	.footer .footerTitle{
+		font-size: 23px;
+	}
+
+	.footer .subscribeButtonText{
+		font-size: 18px;
+	}
+
+	.footer .InformationItems{
+		font-size: 18px;
+	}
+
+	.footer .socialMediaCol{
+		padding-top: 15px;
+	}
+
+	.footer .newsletterDiv{
+		margin-top: 8px;
+	}
+	.footer	.MuiInputBase-root{
+		width:250px;
+	}
+	.footer .subscribeButton{
+		width:120px;
+		height: 55px;
+	}
+
+	.footer .MuiInputBase-input{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 410px){
+	.footer .InformationItems{
+		font-size: 15px;
+	}
+	.footer .subscribeButton{
+		width:70px;
+	}
+	.footer .subscribeButtonText{
+		font-size: 10px;
+	}
+
+	.footer	.MuiInputBase-root{
+		width:200px;
+	}
+
+	.footer .bigHr{
+		width:290px;
+	}
+}
+
+.footer a{
+	color: white;
+}
+
+.footer a:hover{
+	color: white;
+}

@@ -1,0 +1,63 @@
+
+.confirmationCard{
+	justify-content: center;
+	width: 75%;
+	margin: auto;
+}
+
+.confirmationCard p{
+	color: black;
+}
+
+.confirmationCard h2{
+	color: black;
+}
+
+.errorIcon{
+	margin: auto;
+	color: #cc3025;
+}
+
+.successIcon{
+	margin: auto;
+	color:green;
+}
+
+.elementsDiv .MuiCircularProgress-root{
+	display: block !important;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+}
+
+
+
+.ProcessingInfo{
+	height: fit-content;
+    display: block;
+    top: 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.elementsDiv{
+	margin-top: 100px;
+	display: block;
+	width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+	.elementsDiv .MuiCircularProgress-root{
+		width: 200px;
+		height: 200px;
+	}
+
+	.confirmationCard{
+		width: 100%;
+	}
+}

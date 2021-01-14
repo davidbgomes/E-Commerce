@@ -1,0 +1,11 @@
+.mbwayPhoneIcon{
+	margin: auto;
+	display: flex;
+	height: 300px;
+}
+
+@media screen and (max-width: 768px){
+	.mbwayPhoneIcon{
+		height: 150px;
+	}
+}

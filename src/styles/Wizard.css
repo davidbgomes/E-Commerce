@@ -1,0 +1,29 @@
+.MuiStepper-root{
+	padding: 0 !important;
+	padding-top: 10px !important;
+	background-color: transparent !important;
+}
+
+/*.MuiSvgIcon-root{
+	font-size: 2rem;
+}*/
+
+.continueButton{
+	float: right;
+}
+
+.MuiStepLabel-label{
+	color: white !important;
+}
+
+.wizardDiv .MuiOutlinedInput-root{
+	color: white !important;
+}
+
+.wizardDiv .MuiInputLabel-root{
+	color: white !important;
+}
+
+.wizardDiv .MuiOutlinedInput-notchedOutline{
+	border-color: white !important;
+}

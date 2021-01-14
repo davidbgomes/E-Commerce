@@ -1,0 +1,80 @@
+.countdownDiv{
+	display:flex;
+	margin: auto;
+}
+
+.countdownDiv .time{
+	font-size: 100px;
+	text-align: center;
+
+}
+
+.countdownDiv .subtitle{
+	text-align: center;
+	font-size: 30px;
+}
+
+.countdownDiv .timeDiv{
+	display:grid;
+	width: 200px;
+}
+
+@media screen and (max-width: 1400px) {
+	.countdownDiv .timeDiv{
+		width: 150px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.countdownDiv .timeDiv{
+		width: 130px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.countdownDiv .timeDiv{
+		width: 110px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.countdownDiv .timeDiv{
+		width: 100px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 566px) {
+	.countdownDiv .timeDiv{
+		width: 85px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 378px){
+	.countdownDiv .timeDiv{
+		width: 60px;
+	}
+
+	.countdownDiv .subtitle{
+		font-size: 12px;
+	}
+}

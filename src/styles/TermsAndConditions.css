@@ -1,0 +1,30 @@
+.termsAndConditionsDiv{
+	padding-bottom: 600px;
+}
+
+.termsAndConditionsDiv p{
+	font-size: 20px;
+}
+
+.termsAndConditionsDiv li{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 992px){
+	.termsAndConditionsDiv{
+		padding-bottom: 850px;
+	}
+}
+
+@media screen and (max-width: 574px){
+	.termsAndConditionsDiv h3{
+		font-size: 25px !important;
+	}
+	.termsAndConditionsDiv p{
+		font-size: 15px;
+	}
+
+	.termsAndConditionsDiv li{
+		font-size: 15px;
+	}
+}

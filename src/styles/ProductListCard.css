@@ -1,0 +1,129 @@
+.productListCard{
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.productListCard .card-body{
+background: rgb(0,0,0) !important;
+background: linear-gradient(180deg, rgba(0,0,0,0.8127626050420168) 23%, rgba(0,28,120,0.9136029411764706) 100%) !important;
+}
+
+.productListCard p{
+	font-size: 17px;
+}
+
+.addToCartDiv .MuiInputBase-root{
+	color: white;
+	width:70px;
+	height: 43px;
+	margin-right: 10px;
+}
+
+.addToCartDiv .MuiInputLabel-root{
+	color: white;
+}
+
+.addToCartDiv .MuiOutlinedInput-notchedOutline{
+	border-color: white;
+}
+
+.productListCard.card{
+	border: 0px !important;
+}
+
+
+.c {
+ 	position: absolute;
+ 	max-width: 500px;
+ 	max-height: 500px;
+ 	width: 40ch;
+ 	height: 50ch;
+ 	cursor: pointer;
+ 	will-change: transform, opacity;
+ 	padding-right: 10px;
+ 	padding-bottom: 30px;
+}
+
+.back{
+	background: rgb(0,0,0) !important;
+	background: linear-gradient(180deg, rgba(0,0,0,0.8127626050420168) 23%, rgba(0,28,120,0.9136029411764706) 100%) !important;
+	display: grid;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.downloadButtonDiv{
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.downloadButtonDiv .downloadButton{
+	width: -webkit-fill-available;
+}
+
+.downloadButton:disabled{
+    background-color: #8a8787c2;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+	.c{
+		width: 36ch;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.c{
+		width: 35ch;
+		height: 45ch;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.c{
+		width: 27ch;
+		height: 38ch;
+	}
+	h3{
+		font-size: 23px;
+	}
+	h4{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.productListCard{
+		margin-bottom: 50px;
+	}
+	h4{
+		font-size: 18px;
+	}
+}
+/*@media screen and (max-width: 768px) {
+	.productListCard{
+		width: 350px;
+		height: 100%;
+	}
+	.addToCartButton{
+		width: 60%;
+		margin-top: 5px;
+	}
+	.addToCartButton span{
+		font-size: 12px;
+	}
+}*/
+
+@media screen and (max-width: 378px){
+	.productListCard{
+		margin-bottom: 10px;
+	}
+	.c{
+		width: 32ch;
+	}
+}

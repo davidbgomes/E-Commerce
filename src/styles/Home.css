@@ -1,0 +1,272 @@
+.homeDiv{
+	padding-bottom: 550px;
+}
+
+.homeDiv .logoImage{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 100%;
+}
+
+.homeDiv .mainRow{
+	margin-top: 10px;
+}
+
+.homeDiv .treeDiv{
+	display: inline-grid;
+}
+
+.homeDiv .circularProgressDiv{
+	display: grid;
+	width: 180px;
+	margin: auto;
+}
+
+.treeAnimation{
+	width:280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#falling-leaves{
+	animation: fallingLeaves 4s ease infinite;
+}
+
+
+@keyframes treeEntrance{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes fallingLeaves{
+	from{
+		transform: translateY(0px);
+		opacity: 0.7;
+	}
+	to{
+		transform: translateY(100px);
+		opacity: 0;
+	}
+}
+
+
+.homeDiv .counterValues{
+	font-size: 35px;
+}
+
+.productDiv .MuiIcon-root{
+	color: white !important;
+	transform: rotate(-90deg) !important;
+}
+
+.homeDiv .CircularProgressbarDiv{
+	width: min-content;
+	margin: auto;
+}
+
+.homeDiv .statsDiv{
+	display: block;
+	margin-top: 15px;
+	/*width: 400px;*/
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homeDiv .firstSectionHomeDiv{
+	display: grid;
+}
+
+.productDiv{
+	margin-top: auto;
+	margin-bottom: auto;
+	animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@media screen and (max-width: 992px) {
+	.homeDiv{
+		padding-bottom: 750px;
+	}
+}
+
+
+@media screen and (min-width: 1440px) {
+
+	.homeDiv .mainRow{
+		margin-top: 60px;
+	}
+	.homeDiv .statsDiv{
+		width: 400px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 230px;
+	}
+
+	.circularProgressDiv span{
+		font-size: 23px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+	.homeDiv{
+		padding-bottom: 500px;
+	}
+
+	.treeAnimation{
+		width:220px;
+	}
+
+	.homeDiv .counterValues{
+		font-size: 23px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 180px;
+	}
+
+	.homeDiv .logoImage{
+		width: 250px;
+		margin-top: -20px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.homeDiv .statsDiv{
+		margin-left: auto;
+		margin-right: auto;
+		width: 280px;
+	}
+
+	.treeAnimation{
+		width:250px;
+	}
+
+	.homeDiv .counterValues{
+		font-size: 20px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 200px;
+	}
+
+	.homeDiv .mainRow{
+		margin-top: 20px;
+	}
+
+	.homeDiv .logoImage{
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.homeDiv{
+		padding-bottom: 850px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+	.homeDiv .statsDiv{
+		width: 250px;
+		margin-right: 10px;
+	}
+
+	.treeAnimation{
+		width:240px;
+	}
+
+	.homeDiv .counterValues{
+		font-size: 17px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 200px;
+	}
+
+	.homeDiv .logoImage{
+		width: 280px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.homeDiv .logoImage{
+		width: 250px;
+		height: 100%;
+	}
+
+	.homeDiv .mainRow{
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 378px) and (max-width: 576px){
+	.homeDiv .logoImage{
+		width: 250px;
+		height: 100%;
+	}
+
+	.treeAnimation{
+		width:230px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 180px;
+	}
+
+	.homeDiv .counterValues{
+		font-size: 30px;
+	}
+
+	.homeDiv .mainRow{
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 378px){
+	.homeDiv .logoImage{
+		width: 180px;
+		height: 100%;
+	}
+
+	.treeAnimation{
+		width:180px;
+	}
+
+	.homeDiv .counterValues{
+		font-size: 17px;
+	}
+
+	.homeDiv .mainRow{
+		margin-top: 10px;
+	}
+
+	.homeDiv .circularProgressDiv{
+		width: 170px;
+	}
+	.homeDiv .statsDiv{
+		width: auto;
+	}
+}
+
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
