@@ -12,5 +12,4 @@ Firebase was used for the database (Firestore), hosting, storage, and Cloud Func
 So far we only ship to Portugal.
 <br></br>
 ### The official site is https://oxyllus.pt
-<br></br>
 ### @oxyllus on facebook and instagram.
