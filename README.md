@@ -9,7 +9,7 @@ The core of the website is to sell one merch product at a time, and for each pro
 <br></br>
 Firebase was used for the database (Firestore), hosting, storage, and Cloud Functions, where the Node backend is hosted.
 <br></br>
-So far we only ship to Portugal, ence why it is only in portuguese.
+So far we only ship to Portugal.
 <br></br>
 ### The official site is https://oxyllus.pt
 <br></br>
