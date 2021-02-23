@@ -1,6 +1,8 @@
 
 # Oxyllus
 
+![alt text](https://imgur.com/a/kLMu5QR)
+
 ## Overview
 
 This is a ecommerce website done by myself while learning React.js and Node.js.
