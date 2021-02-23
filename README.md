@@ -1,7 +1,7 @@
 
 # Oxyllus
 
-![alt text](https://imgur.com/a/kLMu5QR)
+![alt text](https://i.imgur.com/XKljCuk.png)
 
 ## Overview
 
